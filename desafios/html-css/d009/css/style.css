@@ -1,0 +1,19 @@
+*{
+    font: normal 20pt Arial;
+    color: white;
+}
+
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+main{
+    margin-top: 5rem;
+    text-align: center;
+    align-items: center;
+}
+
+img{
+    width: 230px;
+    display: inline-flex;
+}

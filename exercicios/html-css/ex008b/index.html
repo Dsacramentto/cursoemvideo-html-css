@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. Usar a tag &lt;code&gt; é ótima pra ler códigos.</p>
+    <pre> 
+        <code> 
+    num = int(input('Digite um número'))
+    if num % 2 ==0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num} é IMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <h2>Citações Completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="#">
+        A diferença entre elementos inline  e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML!</bdo></p>
+</body>
+</html>
+<!--A tag <q></q> significa quote(citação) há uma formatação e uma semântica! Usada para citações simples, geralmente de pequenas frases-->
+<!--Dentro de uma tag <pre></pre>, forma o texto se guiando pelas quebras de linhas e parágrafos-->
+<!--A tag <code></code> forma o texto de uma forma que facilita a leitura de códigos.-->
+<!--A tag <blockquote></blockquote> é usada para citações completas e extensas, de parágrafos e afins. Usar o prâmetro "cite" ajuda a deixar o código mais completo que com referêncial para a citação apresentada.-->
+<!-- A tag <abbr>, é usada para abreviações e ajuda na organização da estrutura do código. Colocando o parâmetro "title" é possível dizer a nomeclatura completa da abreviação.-->
+    <!--A tag <bdo dir="Right To Left"> faz com que o texto dentro dela fique invertido! Já a tag <bdo dir="Left To Right">, mantém o texto do mesmo jeito. -->

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tudo Que Aprendi Até o Exercício 007</title>
+    <style>
+        body{
+            background-color: rgb(251, 251, 253);
+        }
+        .titulo{
+            text-align: center;
+        }
+        figure{
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">TUDO QUE APRENDI ATÉ AGORA</h1>
+    <hr>
+    <div class="imagens">
+        <h2>Imagens</h2>
+        <h3>Imagens na mesma pasta:</h3>
+        <figure>
+            <img src="html5.png" alt="Logo HTML5">
+            <legend>Logo HTML5</legend>
+        </figure>
+        <h3>Imagens em uma subpasta:</h3>
+        <figure>
+            <img src="imagens/css3.png" alt="Logo CSS3">
+            <legend>Logo CSS3.</legend>
+        </figure>
+        <h3>Imagem de links externos:</h3>
+        <figure>
+            <img src="https://a.thumbs.redditmedia.com/zDOFJTXd6fmlD58VDGypiV94Leflz11woxmgbGY6p_4.png" alt="Logo JavaScript">
+            <legend>Logo JavaScript.</legend>
+        </figure>
+    </div>
+    <hr>
+    <div class="caracteries_especiais_e_emojis">
+        <h2>Emojis e Caractéries Especiais</h2>
+        <p>Para colocar caractéries especiais usa-se:
+            &reg;
+            &copy;
+            &trade;
+            &euro;
+            &pound;
+            &yen;
+            &cent;
+            &delta;
+            &Delta;
+            &uparrow;
+            &uarr;
+        </p>
+        <p>Pra colocar emojis usa-se:
+            &#x1F596;
+            &#x1F913;
+        </p>
+    </div>
+    <hr>
+    <div class="semantica">
+        <h2>Semântica</h2>
+        <h1>Título de importância 1(<code>&lt;h1&gt;</code>)</h1>
+        <h2>Título de importância 2<code>(&lt;h2&gt;</code>)</h2>
+        <h3>Título de importância 3(<code>&lt;h3&gt;</code>)</h3>
+        <p>Parágrafo (<code>&lt;p&gt;&lt;/p&gt;</code>)</p>
+        <p>Endereço<address>Rua Amélio Soares do Santos, 133, Baixo Grande - SPA, Cabo frio - RJ</address> (usa-se <code>&lt;adress&gt;&lt;/adress&gt;</code> para adicionar endereços no código.)</p>
+    </div>
+    <hr>
+    <div class="principais_formatacoes_em_html">
+        <h2>Principais Formatações em HTML</h2>
+        <div class="negrito-destaque">
+            <h3>Negrito/Destaque</h3>
+            <p>Nessa frase temos <b>um termo em negrito</b> usando a tag <code>&lt;b&gt;</code>. A tag <code>&lt;b&gt;</code> <strong>não é</strong> uma tag semântica, apenas de <u>formatação.</u></p>
+            <p>Nessa frase temos <strong>um termo em destaque</strong> usando a tag <code>&lt;strong&gt;</code>. Visualmente não há diferença, mas essa tag <u>possui semântica!</u></p>
+        </div>
+        <div class="italico-enfase">
+            <h3>Itálico/Ênfase</h3>
+            <p>Nesta frase, temos <i>um termo em itálico</i> usando a tag <code>&lt;i&gt;</code>. <strong>Não é</strong> uma tag semântica, apenas de <u>formatação.</u></p>
+            <p>Nesta frase temos <em>um termo em ênfase</em> usando a tag <code>&lt;em&gt;</code>. Visualmente não há diferença, mas essa tag <u>possui semântica!</u></p>
+        </div>
+        <div class="marca-texto">
+            <h3>Texto Marcado</h3>
+            <p>Podemos criar também <mark style="background-color: aquamarine;">um texto marcado</mark> usando a tag <code>&lt;mark&gt;</code>, semelhante a um marca-texto. A tag <code>&lt;mark&gt;</code> <u>possui semântica.</u></p><span><small>Foi usado <code>style=" background-color: aquamarine;"</code> para dar essa cor ao marcador.</small></span>
+            <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> em cor diferente. Este está na <u>cor padrão</u>.</p>
+        </div>
+        <div class="texto-grande-pequeno">
+            <h3>Texto grande e Pequeno</h3>
+            <p>Estamos criando <big>um texto grande</big> usando a tag <code>&lt;big&gt;</code>, na qual já está <strong>obsoleta.</strong> E <small>um texto pequeno</small> usando a tag <code>&lt;small&gt;.</code></p>
+        </div>
+        <div class="texto-deletado">
+            <h3>Texto Deletado</h3>
+            <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado, usando a tag <code>&lt;del&gt;.</code> A tag <code>&lt;del&gt;</code> é <u>possui semântica!</u></p>
+        </div>
+        <div class="texto-inserido">
+            <h3>Texto Inserido</h3>
+            <p>Podemos marcar <ins>um texto como inserido</ins> para dar ênfase e indicar que ele foi adicionado depois. Usamos a tag <code>&lt;ins&gt;</code>. A tag <code>&lt;ins&gt;</code> <u>possui semântica.</u></p>
+            <p>Existe também o <u>sublinhado</u>, que <strong>não é semântica!</strong> A tag &lt;u&gt; é somente <u>para formatação.</u></p>
+        </div>
+        <div class="texto-sobrescrito-subscrito">
+            <h3>Texto Sobrescrito</h3>
+            <p>Para inserir coisas do tipo: x<sup>20</sup> + 3. Usamos a tag<code> &lt;sup&gt;</code>.</p>
+            <h3>Texto Subscrito</h3>
+            <p>Para inserir coisas do tipo: h<sub>2</sub>0. Usamos a tag <code>&lt;sub&gt;</code>.</p>
+        </div>
+        <div class="trechos-de-codigo">
+            <h3>Trechos de Código</h3>
+            <p>Para compartilharmos nossos trechos de código usamos a tag <code>&lt;code&gt;</code>. POssui uma formatação de fácil leitura e uma semântica apropriada!<br>
+            É interessante usar em conjunto a tag <code>&lt;pre&gt;</code>, que mantém o texto pré-formatado da maneira exata no qual foi escrito, incluindo quebras de linha, espaços e tabulações.
+            </p>
+            <pre><code>
+                num = int(input('um número'))
+                if num % 2 ==0:
+                    print(f'O número {num} é par)
+                else:
+                    print(f'O número {num} é impar)
+                print('FIM DO PROGRAMA')
+            </code></pre>
+        </div>
+        <div class="citacoes">
+            <h3>Citações " "</h3>
+            <p>Uma citação é um trecho de um texto escrito ou dito por outra pessoa, que vai ilustrar perfeitamente aquilo que você quer explicar. <br>
+            Para criar uma citação em <em>HTML</em> usamos a tag <abbr title="Se refere a palavra quote, em inglês."><code>&lt;q&gt;</code></abbr>. Também podemos criar citações mais longas (em bloco) e que tenham um parágrafo só para si. Nesse caso, colocaremos tudo dentro de <code>&lt;blockquote&gt; &lt;/blockquote&gt;</code>. Podemo colocar também um link para o texto original, usando o parâmetro <code>cite=""</code> dentro da tag!
+            </p>
+            <blockquote cite="https://www.martinsfontespaulista.com.br/php-a-biblia-53304.aspx/p">
+                O PHP é uma linguagem para a criação de scripts para a Web do lado servidor embutidos em HTML, cujo código-font é aberto, e que é compartível com os mais importantes servidores Web(especialmente Apache).
+            </blockquote>
+        </div>
+        <div class="abreviacoes">
+            <h3>Abreviações</h3>
+            <p>
+                Sempre que quiser escrever uma sigla, mas também quer deixar claro ao usuário (e aos mecanismos de busca) o significado dela, use a tag <code>&lt;abbr&gt;</code>. <br>
+                O que for escrito no parâmetro <code>title=""</code> da tag <code>&lt;abbr&gt;</code> aparecerá ao colocar o cursos por um determinado tempo em cima da palavra com essa propriedade.
+                <p>Eu estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> para criar sites.</p>
+            </p>
+        </div>
+    </div>
+    <hr>
+    <div class="listas">
+        <h2>Listas</h2>
+        <p>Há dois tipos de listas: <em>as ordenadas</em> <code>&lt;ol&gt;</code> e as <em>não ordenadas</em> <code>&lt;ul&gt;!</code> </p>
+        <h3>Listas Ordenadas e Seus tipos:</h3>
+        <h4>Lista ordenada padrão:</h4>
+        <ol type="1">
+            <li>item 1</li>
+            <li>item 2</li>
+        </ol>
+        <h4>Lista ordenada tipo A:</h4>
+        <ol type="A">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>Há uma variação do tipo a:</li>
+            <ol type="a">
+                <li>item 1</li>
+                <li>item 2</li>
+            </ol>
+        </ol>
+        <h4>Lista ordenada tipo I</h4>
+        <ol type="I">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>Há uma variação do tipo i</li>
+            <ol type="i">
+                <li>item 1</li>
+                <li>item 2</li>
+            </ol>
+        </ol>
+        <h3>Listas Não Ordenadas e Seus tipos:</h3>
+        <h4>Lista não ordenada padrão(disc):</h4>
+        <ul type="disc">
+            <li>item 1</li>
+            <li>item 2</li>
+        </ul>
+        <h4>Lista não ordenada circle</h4>
+        <ul type="circle">
+            <li>item 1</li>
+            <li>item 2</li>
+        </ul>
+        <h5>Lista Nao ordenada square</h5>
+        <ul type="square">
+            <li>item 1</li>
+            <li>item 2</li>
+        </ul>
+        <h3>É possível também aninhar uma lista dentro da outra:</h3>
+        <h4>EX: Lista dos meus jogos favoritos</h4>
+        <ul type="disc">
+            <li>Nintendinho</li>
+            <ol type="1">
+                <li>Mario Bros</li>
+                <ul type="square">
+                    <li>Super Mario Bros 3</li>
+                    <li>Mario: Lost Levels</li>
+                </ul>
+                <li>Ninja Gaiden</li>
+                <ul>
+                    <li>Ninja Gaiden III</li>
+                </ul>
+            </ol>
+            <li>Super Nintendo</li>
+            <ol type="1">
+                <li>Super Mario World</li>
+                <li>Donkey Kong</li>
+                <ul type="square">
+                    <li>Donkey Kong Country III</li>
+                    <li>Diddy's Kong Quest</li>
+                </ul>
+            </ol>
+            <li>PlayStation 1</li>
+            <ol type="1">
+                <li>Final Fantasy</li>
+                <ul type="square">
+                    <li>Final Fantasy VII</li>
+                    <li>Final Fantasy IX</li>
+                </ul>
+                <li>Castlevania</li>
+                <ul type="square">
+                    <li>Simphony of the Night</li>
+                </ul>
+            </ol>
+        </ul>
+        <h3>Lista de Definição</h3>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Linguagem de marcação utilizada para criar o conteúdo de sites.</dd>
+            <dt>CSS</dt>
+            <dd>Lingugagem de marcação para a especificação de estilos em sites.</dd>
+            <dt>JavaScript</dt>
+            <dd>Lingugagen de programação para criar interatividades em sites.</dd>
+        </dl>
+    </div>
+    <hr>
+    <div class="links">
+        <h2>Trabalhando com Links</h2>
+        <p>Usamos a tag <code>&lt;a&gt;</code> para criar âncoras de links <em>hyper text</em></p>
+        <p>Aqui tem alguns parâmetros utilizados e suas funções:</p>
+        <dl>
+            <dt><strong><code>href=""</code></strong></dt>
+            <p>HyperText Reference: Colocando a URL completa da página web desejada, cria-se o link propriamente dito.</p>
+            <dt><strong><code>target=""</code></strong></dt>
+            <dl>Target: Utiliza-se para dizer como link irá se comportar:</dl>
+            <ul>
+                <li><code>_self</code></li>
+                <span>para abrir na mesma página</span>
+                <li><code>_blank</code></li>
+                <span>para abrir em outra janela web.</span>
+            </ul>
+            <dt><strong><code>ref=""</code></strong></dt>
+            <p>Ref: Utiliza-se para "referenciar" o link:</p>
+            <ul>
+                <li><code>external</code></li>
+                <span>Usado para referenciar links externos.</span>
+                <li><code>next</code></li>
+                <span>Usado para referenciar links que levam a próxima página.</span>
+                <li><code>prev</code></li>
+                <span>Usado para referenciar links que levam a página anterior.</span>
+            </ul>
+        </dl>
+        <h3>Links Externos</h3>
+        <p>Esse aqui é um exemplo de link externo para o meu <a href="https://www.youtube.com/@dsacramentto">canal do YouTube.</a>
+            <br>
+        <code>Esse link usa o target="_self" e ref="external"</code>
+        </p>
+        <p>Esse aqui é um exemplo de link externo para o meu <a href="https://www.youtube.com/@dsacramentto" target="_blank" ref="external">canal do YouTube.</a>
+            <br>
+        <code>Esse link usa o target="_blank" e ref="external".</code>
+        </p>
+        <h3>Links Internos</h3>
+        <p>Esse qui é um exemplo de link interno para a <a href="pag02.html" target="_self" e ref="next">página 2.</a>
+            <br>
+            <code>Esse link usa o target="_self" e ref="next"</code>
+        </p>
+        <p>Esse aqui é um exemplo de link interno para <a href="/galeria_de_gatinhos/pag03.html" target="_self" ref="next">minha galeria de gatinhos!</a>
+        <br>
+        <code>Esse link usa o target="_self" e ref="next"</code>
+        </p>
+        <h3>Links Para Download</h3>
+        <p>Links para download usam a mesma tag <code>&lt;a&gt;</code>, o <code>href=""</code> irá ter o valor do objeto que se deseja fazer o download, o <code>type=""</code> <br>indicará ao navegador que tipo de arquivo está sendo baixado e o <code>download=""</code> terá valor com o nome do arquivo a ser baixado.</p>
+        <ul>
+            <li><a href="Livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Download Meu Livro em PDF</a></li>
+            <li><a href="Livro/meulivro.zip" download="meulivro.zip" type="application/zip">Download Meu Livro em ZIP</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+
+<!-- Documento criado por Daniel Sacramento! -->

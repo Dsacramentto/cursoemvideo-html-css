@@ -1,0 +1,14 @@
+*{
+    font: normal 20pt Arial;
+    color: white;
+}
+
+body{
+    background-color: rgb(49, 49, 49);
+}
+
+main{
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+}
