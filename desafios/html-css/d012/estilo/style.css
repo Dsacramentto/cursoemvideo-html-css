@@ -1,98 +1,71 @@
 @charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-
-
-:root{
-    --preto: rgb(27, 27, 27);
-    --branco: rgb(240, 240, 240);
-
-    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: "Passion One", cursive, sans-serif;
-    --fonte3: "Sriracha", cursive, sans-serif;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 
-body{
-    height: 100vh;
+:root{
+
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Sriracha", cursive, sans-serif;
 }
 
-header{
-    padding: 40px;
-    text-align: center;
-    background-color: var(--preto);
-    color: var(--branco);
+html, body{
+    min-width: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 a:hover{
     text-decoration: underline;
 }
 
-header h1{
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1{
     font-size: 10vw;
-    letter-spacing: 4px;
+    font-variant: small-caps;
     font-family: var(--fonte2);
-    font-weight: normal;
 }
 
-header p{
-    font-family: var(--fonte1);
-    font-size: 1em;
-}
-
-header a{
-    color: var(--branco);
-    text-decoration: none;
-    font-weight: bolder;
-}
-
-main p{
-    font-size: 3.5vw;
-    font-family: var(--fonte3);
+section{
+    padding: 10vh 0;
+    padding-left: 30px;
     line-height: 2em;
-    padding: 10vw 0;
-    padding-left: 25px;
+    font-family: var(--fonte3);
 }
 
-.imagem{
-    margin: 0;
-    padding: 40px;
-    background: green url("../imagens/background001.jpg") center center no-repeat fixed;
-    background-size: cover;
-    
+section.normal{
+    background-color: white;
+    color: black;
 }
 
-.imagem2{
-    margin: 0;
-    padding: 40px;
-    background: green url("../imagens/background002.jpg") center center no-repeat fixed;
-    background-size: cover;
+section.imagem{
+    background-color: rgb(37, 37, 37);
+    color: white;
 }
 
-.imagem p, .imagem2 p{
-    width: max-content;
-    color: var(--branco);
-    background-color: rgba(0, 0, 0, 0.274);
-    padding: 0;
-    
+section.imagem > p{
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.308);
 }
 
 footer{
     text-align: center;
-    padding: 5px;
-    font-family: var(--fonte1);
-    font-size: 1em;
-    background-color: var(--preto);
-    color: var(--branco);
-}
-
-footer a{
-    color: var(--branco);
-    font-weight: bolder;
+    background-color: black;
+    color: white;
 }
